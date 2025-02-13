@@ -22,9 +22,9 @@ const Footer = ({ref}: PropsType) => {
         <h2>This site made with ☕️ and . . .</h2>
         <div style={{marginTop: 10, display: 'flex', justifyContent: 'space-between'}}>
           <TechImage src={icons.react.icon} name={icons.react.name} style={{backgroundColor: 'unset'}}/>
-          <TechImage src={icons.vite.icon} name={icons.vite.name} style={{backgroundColor: 'unset'}}/>
           <TechImage src={icons.styled.icon} name={icons.styled.name} style={{backgroundColor: 'unset'}}/>
           <TechImage src={icons.motion.icon} name={icons.motion.name} style={{backgroundColor: 'unset'}}/>
+          <TechImage src={icons.nextJS.icon} name={icons.nextJS.name} style={{backgroundColor: 'unset'}}/>
           <TechImage src={icons.webstorm.icon} name={icons.webstorm.name} style={{backgroundColor: 'unset'}}/>
         </div>
       </div>

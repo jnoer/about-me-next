@@ -26,6 +26,7 @@ import Vite from "../../public/vite.svg";
 import StyledIcon from "../../public/styled-components.png"
 import MotionIcon from "../../public/motion.svg"
 import WebstormIcon from "../../public/webstorm.svg"
+import NextJS from "../../public/next-dot-js.svg"
 
 const Icons = {
   aws: {icon: AWSIcon, name: 'AWS'},
@@ -56,6 +57,7 @@ const Icons = {
   vite: {icon: Vite, name: 'Vite'},
   styled: {icon: StyledIcon, name: 'Styled Components'},
   motion: {icon: MotionIcon, name: 'Motion'},
+  nextJS: {icon: NextJS, name: 'Next.js'},
 }
 
 export default Icons;

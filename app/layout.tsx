@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 import StyledComponentsRegistry from "@/lib/styled-components-registry";
 import ClientLayout from "@/lib/client-layout";
 import { Noto_Sans, Roboto_Mono } from 'next/font/google';
-import Head from 'next/head';
+import {Metadata} from "next";
 
 const notoSans = Noto_Sans({
   subsets: ['latin'],
@@ -11,6 +11,11 @@ const notoSans = Noto_Sans({
 const robotoMono = Roboto_Mono({
   subsets: ['latin'],
 })
+
+export const metadata: Metadata = {
+  title: 'Jason Noer',
+  description: 'Learn more about Jason Noer\'s career',
+}
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (

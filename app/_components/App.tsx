@@ -105,8 +105,6 @@ function App() {
 
   return (
     <>
-      {/*<GlobalStyles/>*/}
-
       <Header isCoolMode={isCoolMode} setCoolMode={setCoolMode}/>
 
       <StyledMain style={{background}}>

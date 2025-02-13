@@ -1,6 +1,6 @@
-import {Title, WorkDetails} from "./WorkDetails.tsx";
-import TechImage, {containerVariants} from "./TechImage.tsx";
-import Icons from "./icons.ts";
+import {Title, WorkDetails} from "./WorkDetails";
+import TechImage, {containerVariants} from "./TechImage";
+import Icons from "./icons";
 import {motion} from "motion/react";
 
 const AsicsDetails = () => {

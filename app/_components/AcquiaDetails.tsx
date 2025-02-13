@@ -1,6 +1,6 @@
-import {Title, WorkDetails} from "./WorkDetails.tsx";
-import TechImage, {containerVariants} from "./TechImage.tsx";
-import icons from "./icons.ts";
+import {Title, WorkDetails} from "./WorkDetails";
+import TechImage, {containerVariants} from "./TechImage";
+import icons from "./icons";
 import {motion} from "motion/react";
 
 const AcquiaTitle = () => {

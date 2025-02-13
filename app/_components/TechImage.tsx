@@ -44,7 +44,7 @@ const TechImage = ({...delegated}) => {
       onMouseLeave={onMouseLeave}
     >
       <motion.div whileHover={{scale: 1.3}}>
-        <StyledTechImage alt={delegated.name} {...delegated} />
+        <StyledTechImage alt={delegated.name} src={delegated.src} {...delegated} />
       </motion.div>
 
       <StyledText

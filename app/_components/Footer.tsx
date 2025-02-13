@@ -1,5 +1,5 @@
-import TechImage from "./TechImage.tsx";
-import icons from "./icons.ts"
+import TechImage from "./TechImage";
+import icons from "./icons"
 import styled from "styled-components";
 
 const StyledFooter = styled.footer`
@@ -12,7 +12,7 @@ const StyledFooter = styled.footer`
 `
 
 interface PropsType {
-  ref: React.RefObject<null>;
+  ref: React.RefObject<HTMLDivElement>;
 }
 
 const Footer = ({ref}: PropsType) => {

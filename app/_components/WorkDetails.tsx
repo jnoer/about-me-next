@@ -1,7 +1,7 @@
 import {motion} from "motion/react";
 import {ReactNode} from "react";
 import styled from "styled-components";
-import {device} from "../styles/styles.ts";
+import {device} from "../styles/styles";
 
 interface WorkDetailsProps {
   children?: ReactNode,

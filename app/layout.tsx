@@ -3,6 +3,8 @@ import StyledComponentsRegistry from "@/lib/styled-components-registry";
 import ClientLayout from "@/lib/client-layout";
 import { Noto_Sans, Roboto_Mono } from 'next/font/google';
 import {Metadata} from "next";
+import { GoogleAnalytics } from '@next/third-parties/google';
+
 
 const notoSans = Noto_Sans({
   subsets: ['latin'],
@@ -25,6 +27,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <ClientLayout>{children}</ClientLayout>
         </StyledComponentsRegistry>
       </body>
+      <GoogleAnalytics gaId="G-XRVS46Q81L" />
     </html>
   );
 }

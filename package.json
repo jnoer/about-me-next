@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@next/third-parties": "^15.1.7",
     "motion": "^12.4.0",
     "next": "latest",
     "react": "^18.3.1",

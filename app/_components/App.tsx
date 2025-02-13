@@ -168,7 +168,7 @@ function App() {
           </LeftSide>
 
           <RightSide id="right-side">
-            <div style={{height: '180px'}}/>
+            <div style={{height: '480px'}}/>
 
             <CompanyImageContainer id="asics-section">
               <CompanyImage alt="Asics" src={AsicsLogo} ref={asicsRef} style={{margin: '0 auto 20px auto'}}/>

@@ -1,7 +1,7 @@
-import { createGlobalStyle } from "styled-components";
+import {createGlobalStyle} from 'styled-components';
 
-const GlobalStyle = createGlobalStyle`
-   *, *::before, *::after {
+const GlobalStyles = createGlobalStyle`
+  *, *::before, *::after {
     box-sizing: border-box;
   }
 
@@ -46,6 +46,7 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 500;
     text-decoration: inherit;
   }
+ 
 `;
 
-export default GlobalStyle;
+export default GlobalStyles;

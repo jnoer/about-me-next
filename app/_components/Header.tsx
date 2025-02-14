@@ -53,7 +53,7 @@ const Header = ({isCoolMode, setCoolMode}: PropTypes) => {
         </StyledH1>
 
         <LinkContainer variants={containerVariants} initial="out" animate="in">
-          <motion.a href="https://github.com/jnoer/about-me/" target="_blank" variants={linkVariants}>
+          <motion.a href="https://github.com/jnoer/about-me-next/" target="_blank" variants={linkVariants}>
             <motion.div
               whileHover={{scale: 1.2}}
               whileTap={{scale: 0.9}}

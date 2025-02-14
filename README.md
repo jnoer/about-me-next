@@ -1,5 +1,7 @@
 # Jason Noer
 
+A Next.js version of https://github.com/jnoer/about-me/
+
 <https://jnoer-about.vercel.app/>
 
 ![](https://github.com/jnoer/about-me/blob/main/Screenshot.png?raw=true)
